@@ -1,0 +1,32 @@
+# Ignore Composer dependencies
+/vendor/
+
+# Ignore Composer's lock file (optional, if you don't want to commit lock files for libraries)
+composer.lock
+
+# Ignore editor/IDE files
+/.idea/
+/.vscode/
+/*.sublime-project
+/*.sublime-workspace
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore local environment files
+.env
+
+# Ignore PHPStorm or Phpunit generated cache
+.phpunit.result.cache
+
+# Ignore any database or temporary files
+*.sqlite3
+*.log
+
+# Ignore build artifacts
+/build/
+/dist/
+
+# Ignore examples vendor (if you have separate composer install inside examples)
+/examples/vendor/

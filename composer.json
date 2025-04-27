@@ -1,0 +1,20 @@
+{
+    "name": "iceithq/accounting-php-client",
+    "description": "PHP client library for connecting to the ICE Accounting System API.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Iceithq\\Accounting\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ian",
+            "email": "ian.escarro@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    }
+}
