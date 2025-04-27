@@ -36,7 +36,7 @@ print_r($companies);
 ```
 
 ## Features
-* Connect to ICEIT Accounting System
+* Connect to ICE Accounting System
 * Fetch customers and companies
 * (Upcoming) Create sales orders
 * (Upcoming) Fetch invoices
